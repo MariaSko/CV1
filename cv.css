@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+.header {background-color: #ECE3F0;
+text-align: center;}
+
+.pic-me {width: 200px;
+height: auto;
+border-radius: 30px;}
+
+body {background-color: #f1f1f1;
+
+  font-family: 'Sono', sans-serif;
+  margin: 20px;
+  width: auto;
+}
+
+.info {display: flex;}
+
+.info-text {
+  font-size: 20px;
+  padding: 70px 30px 0 40px;
+}
+
+.info-block {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+.skill-block {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+
+h2 {text-align: center;}
+
+.bg-yellow {background: #EFE7D3;}
+
+.bg-green {background: #e5ffe7;}
+
+.bg-red {background: #ffe5e5;}
+
+.bg-blue {background: #D4F1F4;}
+
+.bg-purple {background: #D3BBDD;}
+
+.bg-mint {background: #B6E2D3;}
+
+.bg-rose {background: #D8A7B1 ;}
+
+.bg-wave {background: #8FDDE7;}
+
+.info p {
+  margin: 0px;
+  font-style: italic;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  color: black;
+  outline: pink;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btn {
+  background: #D76F88;
+  color: #A2ECE6;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
